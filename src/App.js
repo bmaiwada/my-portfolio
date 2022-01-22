@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe"
 
 //adding particles js @https://www.npmjs.com/package/tsparticles
 import Particles from "react-tsparticles";
@@ -58,6 +59,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <AboutMe />
     </>
   );
 }
