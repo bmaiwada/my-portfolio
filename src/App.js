@@ -9,6 +9,7 @@ import Education from "./components/Education";
 // import Services from "./components/Services"
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
 
 //adding particles js @https://www.npmjs.com/package/tsparticles
 import Particles from "react-tsparticles";
@@ -72,6 +73,7 @@ function App() {
       {/* <Services /> */}
       <Experience />
       <Portfolio />
+      <Testimonials />
     </>
   );
 }
