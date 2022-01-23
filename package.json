@@ -19,6 +19,7 @@
     "react-responsive-carousel": "^3.2.22",
     "react-scripts": "^3.0.1",
     "react-scroll": "^1.8.4",
+    "react-share": "^4.4.0",
     "react-social-icons": "^5.8.0",
     "react-tsparticles": "^1.39.0",
     "react-typed": "^1.2.0",

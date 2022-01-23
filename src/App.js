@@ -10,7 +10,8 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
-import Contacts from "./components/Contacts";
+// import Contacts from "./components/Contacts";
+import Footer from "./components/Footer"
 
 
 //adding particles js @https://www.npmjs.com/package/tsparticles
@@ -77,7 +78,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       {/* <Contacts /> */}
-      <Contacts />
+      <Footer />
     </>
   );
 }
