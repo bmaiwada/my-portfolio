@@ -214,6 +214,111 @@ nav ul li {
   }
 }
 
+/*************************** SKILLS COMPONENT *************************************/
+
+.skillsGrid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 50px;
+  grid-auto-rows: auto;
+  height: auto;
+}
+
+.skillsGrid img {
+  height: 150px;
+  width: 150px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.software{
+  margin: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.computer{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  /* margin: 12px; */
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.skills h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+
+
+
+
+/*------------ MEDIA ------------------*/
+
+/* Small Screens max width 640px */
+/* @media screen and (max-width: 320px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+.skillsGrid img {
+  height: 75px;
+  width: 75px;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+} */
+
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (max-width:860px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+
 /*************************** EDUCATION COMPONENT *************************************/
 
 .education {
