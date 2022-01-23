@@ -1,5 +1,5 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 //import components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -10,7 +10,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
-// import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts";
 import Footer from "./components/Footer"
 
 
@@ -77,7 +77,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Testimonials />
-      {/* <Contacts /> */}
+      <Contacts />
       <Footer />
     </>
   );
