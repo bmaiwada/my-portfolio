@@ -17,7 +17,7 @@ const Education = () => {
                                 <h5>General Assembly</h5>
                                 <br /> <br />
                                 <p>Graduated:  2021<br />
-                                    Certificate in Software Engineering
+                                Certificate in Software Engineering
                                 </p>
                             </div>
                         </div>
@@ -29,8 +29,10 @@ const Education = () => {
                                 <h3> Computer Engineering</h3>
                                 <h5>Minnesota State University Mankato</h5>
                                 <br />
-                                <p>Graduated:  2020 <br />
-                                    Bachelor Degree in Computer Engineering</p>
+                                <p>
+                                    Graduated:  2020 <br />
+                                    Bachelor Degree in Computer Engineering
+                                </p>
                             </div>
                         </div>
                     </div>

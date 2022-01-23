@@ -32,28 +32,28 @@ const Footer = () => {
             <div className="col-lg-3 col-md-2 col-sm-6">
               <div className="row">
                 <div className="col">
-                  <Link smooth={true} to="home" className="footer-nav">
+                  <Link smooth={true} to="home" offset={-110} className="footer-nav">
                     Home
                   </Link>
                   <br />
-                  <Link smooth={true} to="aboutme" className="footer-nav">
+                  <Link smooth={true} to="aboutme"  offset={-110} className="footer-nav">
                     About Me
                   </Link>
                   <br />
-                  <Link smooth={true} to="skill" className="footer-nav">
+                  <Link smooth={true} to="skill"  offset={-110} className="footer-nav">
                     Skills
                   </Link>
                 </div>
                 <div className="col">
-                  <Link smooth={true} to="experience" className="footer-nav">
+                  <Link smooth={true} to="experience"  offset={-110} className="footer-nav">
                     Experience
                   </Link>
                   <br />
-                  <Link smooth={true} to="portfolio" className="footer-nav">
+                  <Link smooth={true} to="portfolio"  offset={-110} className="footer-nav">
                     Projects
                   </Link>
                   <br />
-                  <Link smooth={true} to="education" className="footer-nav">
+                  <Link smooth={true} to="education"  offset={-110} className="footer-nav">
                     Education
                   </Link>
                 </div>
@@ -87,7 +87,7 @@ const Footer = () => {
               <p className="pt-3 text-center">
                 Copyright &copy;
                 <span>
-                  {new Date().getFullYear()}&nbsp; BSoft | All Rights Reserved
+                  {new Date().getFullYear()}&nbsp; BSoft Tech | All Rights Reserved
                 </span>
               </p>
             </div>

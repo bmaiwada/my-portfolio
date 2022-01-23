@@ -69,8 +69,8 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
-  /* padding: 0 !important; */
-  height: 6rem !important;
+  padding: 0 !important;
+  /* height: 6rem !important; */
   
   
 }
@@ -79,6 +79,10 @@ nav ul li {
   .navbar-brand {
     width: 7rem;
   }
+  .logo{
+  margin-top: 15px;
+  width: 8rem;
+}
 }
 
 .navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
@@ -101,7 +105,7 @@ nav ul li {
 
 .font-effect-fire-animation {
   display: flex;
-  font-size: 48px !important;
+  font-size: 70px !important;
   font-family: "Sofia", sans-serif !important;
   justify-content: center !important;
   align-items: center !important;
@@ -143,12 +147,38 @@ nav ul li {
 @media(max-width: 768px){
   .main-info h1{
     font-size: 1.7rem !important;
-    /* color: var(--primary-white); */
+    
   }
+
+  .font-effect-fire-animation {
+    font-size: 60rem !important;
+    
+  }
+/* .header-wrapper{
+  height: 100vh;
+} */
+
   .typed-text{
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
   }
  
+  /* div.main-info {
+    display: flex;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+
+  a.btn-main-offer.bg-lg{
+  padding: 0;
+  margin:0;
+}
 }
 
 /*************************** HEADER MAIN OFFER BUTTON **********************************************/
@@ -327,9 +357,19 @@ nav ul li {
   background: var(--primary-light-grey);
 }
 
+.education h3 h5{
+  font-weight: bold;
+}
+
+.education p{
+  text-align: left;
+  font-weight: bold;
+}
+
 .education h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .education .circle {
@@ -379,7 +419,7 @@ nav ul li {
   color: var(--primary-white);
 }
 
- /************************** SERVICES COMPONENT ************************************/
+ /* ************************* SERVICES COMPONENT ***********************************
 
 .services {
   text-align: center;
@@ -437,7 +477,7 @@ nav ul li {
 
 .services .box:hover p {
   color: var(--primary-white);
-}
+} */
 
 
 /************************ EXPERIENCE *********************************/
@@ -455,6 +495,10 @@ nav ul li {
 .experience h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+}
+
+.experience h5{
+  font-weight: bold;
 }
 
 .experience-wrapper::before {
@@ -558,20 +602,20 @@ nav ul li {
   position: relative;
   /* margin: 1rem; */
   margin: 50px;
-  padding: 20px;
+  /* padding: 20px;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: center !important; */
 
 }
 
 /*------------ OVERFLOW BOX ------------------*/
 .overflow {
   position: absolute;
-   opacity: 0;
-   background: var(--primary-black);
-   width: 15rem;
-   height: 8rem;
-   top: 0;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
  
@@ -806,4 +850,33 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a  {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer p:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
 }

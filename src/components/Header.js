@@ -10,7 +10,7 @@ const Header = () => {
         
         <div className="header-wrapper" id="home" style={{backgroundImage: "url(/images/Background/header-background.jpeg')"}} >
             <div className="main-info">
-                <h1 class="font-effect-fire-animation"><span id="name">I'm Buhari Nasir Maiwada</span> </h1>
+                <h1 class="font-effect-fire-animation"><span id="name">Buhari Nasir Maiwada</span> </h1>
                 <hr />
                 <h1> Computer Engineer | Software Engineer </h1>
                 <Typed
