@@ -1,10 +1,13 @@
 import React from "react";
+
+//import components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe"
 import Skills from "./components/Skills"
 import Education from "./components/Education"
 // import Services from "./components/Services"
+import Experience from "./components/Experience"
 
 //adding particles js @https://www.npmjs.com/package/tsparticles
 import Particles from "react-tsparticles";
@@ -66,6 +69,7 @@ function App() {
       <Skills />
       <Education />
       {/* <Services /> */}
+      <Experience />
     </>
   );
 }
