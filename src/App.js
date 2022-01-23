@@ -3,11 +3,12 @@ import React from "react";
 //import components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import AboutMe from "./components/AboutMe"
-import Skills from "./components/Skills"
-import Education from "./components/Education"
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
 // import Services from "./components/Services"
-import Experience from "./components/Experience"
+import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 //adding particles js @https://www.npmjs.com/package/tsparticles
 import Particles from "react-tsparticles";
@@ -70,6 +71,7 @@ function App() {
       <Education />
       {/* <Services /> */}
       <Experience />
+      <Portfolio />
     </>
   );
 }
