@@ -237,7 +237,15 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+#aboutme p {
+    line-height: 30px;
+    color: whitesmoke;
+    margin: 0;
+}
 
+#aboutme{
+  text-align: center;
+}
 
 }
 
@@ -257,7 +265,7 @@ nav ul li {
 }
 
 .skills{
-  background-color: whitesmoke;
+  background: var(--primary-white);
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -471,6 +479,7 @@ nav ul li {
 
 .experience {
   padding: 0.7rem;
+  background: var(--primary-white);
 }
 
 .experience-wrapper {

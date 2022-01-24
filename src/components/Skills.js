@@ -1,6 +1,20 @@
 import React from "react";
 import Skill from "./Skill";
 
+
+//importing image logos
+import AssLang from "../images/Skills/assembly-language-removebg-preview.png";
+import Keil from "../images/Skills/Keil.svg";
+import Smart from "../images/Skills/Keil.svg";
+import Cortex from "../images/Skills/Arm_Cortex-removebg-preview.png";
+import Network from "../images/Skills/smart sensor.jpeg";
+import IoT from "../images/Skills/IoT-removebg-preview.png";
+import Hardware from "../images/Skills/Computer_Hardware-removebg-preview.png";
+import CubeMx from "../images/Skills/stm32cubemx.png";
+import RTOS from "../images/Skills/rtos-logo-removebg-preview.png";
+import STM32 from "../images/Skills/STM32.png";
+import Embed from "../images/Skills/Embedded System.png";
+
 const Skills = () => {
   return (
     <div className="skills" id="skills">
@@ -130,25 +144,28 @@ const Skills = () => {
           title="Arduino"
         />
         <Skill
-          source="http://www.syncnet.hu/assets/images/logos/embedded/embeddedLinux.png"
+          source={Cortex}
           alt="The logo icon for MCU"
-          title="MCU"
+          title="Arm Cortex Microcontroller"
         />
         <Skill
-          source="https://img.icons8.com/external-filled-outline-geotatah/64/000000/external-iot-internet-of-behavior-iob-filled-outline-filled-outline-geotatah.png"
+          source={IoT}
           alt="The logo icon for IoT"
-          title="IoT"
+          title="Internet of Things"
         />
         <Skill
-          source="http://www.syncnet.hu/assets/images/logos/operating_systems/freertos.png"
+          source={RTOS}
           alt="The logo icon for RTOS"
-          title="RTOS"
+          title="Real Time Operating System"
         />
-        <Skill
-          source="http://www.syncnet.hu/assets/images/logos/development/keil.png"
-          alt="The logo icon for Keil"
-          title="Keil"
-        />
+        <Skill source={Keil} alt="The logo icon for Keil uVision" title="Keil uVision" />
+        <Skill source={AssLang} alt="The logo icon for Keil" title="Assembly Language" />
+        <Skill source={STM32} alt="The logo icon for Keil" title="STM32 Microontroller" />
+        <Skill source={Embed} alt="The logo icon for Keil" title="Embedded System" />
+        <Skill source={Network} alt="The logo icon for Keil" title="Computer Networking" />
+        <Skill source={CubeMx} alt="The logo icon for Keil" title="STM32 CubeMx" />
+        <Skill source={Hardware} alt="The logo icon for Keil" title="Computer Hardware" />
+
       </div>
     </div>
   );
