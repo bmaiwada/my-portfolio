@@ -18,6 +18,7 @@
 
 body{
   font-family: "Roboto Condensed", sans-serif !important;
+  background: #0f0f0f;
 }
 
 /*************************** NAVBAR *************************************/
@@ -93,10 +94,15 @@ nav ul li {
 
 .header-wrapper{
   position : relative;
-  background:  url(./images/Background/header-background.jpeg) no-repeat center center fixed;
-  background-size: cover;
+  background: #161415  url(./images/Background/header-background.jpeg) no-repeat center fixed;
+  background-size: cover !important;
   background-position: center;
   height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  
+  overflow: hidden;
 }
 
 .font-effect-fire-animation {
@@ -190,11 +196,30 @@ nav ul li {
 }
 
 /*************************** ABOUT ME *************************************/
+#aboutme {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   margin: 0 !important;
+   overflow: hidden;
+   max-width: 100% !important;
+  
+}
+
 .photo-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+#aboutme p {
+   line-height: 30px;
+   color: whitesmoke;
+   margin-right: 200px;
+   
+}
+
+
 
 .profile-img {
   width: 16rem;
@@ -212,6 +237,8 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+
+
 }
 
 /*************************** SKILLS COMPONENT *************************************/
@@ -379,7 +406,7 @@ nav ul li {
   color: var(--primary-white);
 }
 
- /************************** SERVICES COMPONENT ************************************/
+ /* ************************* SERVICES COMPONENT ***********************************
 
 .services {
   text-align: center;
@@ -437,7 +464,7 @@ nav ul li {
 
 .services .box:hover p {
   color: var(--primary-white);
-}
+} */
 
 
 /************************ EXPERIENCE *********************************/

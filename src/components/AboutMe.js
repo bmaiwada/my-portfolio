@@ -4,7 +4,7 @@ import author from "../images/mySelf/myself.png";
 
 const AboutMe = () => {
     return (
-        <div className="container mt- 5 pt-5" id="aboutme">
+        <div className="container pt-5" id="aboutme">
             <div className="row">
                 <div className=" col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
