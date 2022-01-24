@@ -5,14 +5,14 @@ import Skill from "./Skill";
 //importing image logos
 import AssLang from "../images/Skills/assembly-language-removebg-preview.png";
 import Keil from "../images/Skills/Keil.svg";
-import Smart from "../images/Skills/Keil.svg";
+import Smart from "../images/Skills/smart sensor.jpeg";
 import Cortex from "../images/Skills/Arm_Cortex-removebg-preview.png";
-import Network from "../images/Skills/smart sensor.jpeg";
+import Network from "../images/Skills/Computer_Network-removebg-preview.png";
 import IoT from "../images/Skills/IoT-removebg-preview.png";
 import Hardware from "../images/Skills/Computer_Hardware-removebg-preview.png";
 import CubeMx from "../images/Skills/stm32cubemx.png";
 import RTOS from "../images/Skills/rtos-logo-removebg-preview.png";
-import STM32 from "../images/Skills/STM32.png";
+import STM32 from "../images/Skills/STM32-removebg-preview.png";
 import Embed from "../images/Skills/Embedded System.png";
 
 const Skills = () => {
@@ -165,7 +165,7 @@ const Skills = () => {
         <Skill source={Network} alt="The logo icon for Keil" title="Computer Networking" />
         <Skill source={CubeMx} alt="The logo icon for Keil" title="STM32 CubeMx" />
         <Skill source={Hardware} alt="The logo icon for Keil" title="Computer Hardware" />
-
+        <Skill source={Smart} alt="The logo icon for Keil" title="Smart sensor" />
       </div>
     </div>
   );
