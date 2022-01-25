@@ -51,7 +51,9 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={CarDealership} alt="CarDealership Project..." />
-                <p>I approach each project individually and always focus on the results. </p>
+                <p> A client website for a car business owner who wants to list his cars on his website and allow the user to come  <br />
+                    to his site and browse through all of his latest cars and featured cars, search and filter the cars by model or price,  <br />
+                    and make some inquiries about his cars that are out for the sale.This project was build using Django framework and Python.</p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/car-dealership")} > https://github.com/BsoftMaewada/car-dealership </a>
             </>
         )
@@ -73,7 +75,8 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={HiTMe} alt="HiT-Me Project..." />
-                <p>A website game designed using HTML, CSS and JavaScript. A player will try to hit the box where a popup venom before the time runs out. </p>
+                <p>A personal webApp game designed for fun, using pure HTML, CSS and JavaScript. A player will try to hit  <br />
+                    the box where a popup venom before the time runs out. </p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/HiT-Me")} >https://github.com/BsoftMaewada/HiT-Me </a>
             </>
         )
@@ -96,7 +99,8 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={AssetsTracker} alt="Assets Tracker Project..." />
-                <p>I approach each project individually and always focus on the results. </p>
+                <p>Assets Tracker is a website designed to help individuals in monitoring their properties and assets. The website was design  <br />
+                    using EJS (Embedded JavaScript), Node JS, Express JS and MongoDB. </p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/Dthomas0729/Asset-Tracker")} >https://github.com/Dthomas0729/Asset-Tracker </a>
             </>
         )
@@ -169,7 +173,8 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={ FinchCollector } alt="Finch Collector Project..." />
-                <p>I approach each project individually and always focus on the results. </p>
+                <p>A personal fullstact website design for learning purposes. Where by a user can create account and  <br />
+                    post his/her favorite finch birds.Practicing how to work with CRUD, REST and API. </p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/finchCollector")} >https://github.com/BsoftMaewada/finchCollector </a>
             </>
         )
@@ -192,8 +197,9 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={ Wayfarer } alt="Wayfarer Project..." />
-                <p>A Travel website application that focuses on cities around the world and city art <br />
-                    that can be found there. Users can share their images and experiences with each other. </p>
+                <p>A client travel website application that focuses on cities art around the world <br />
+                    that can be found there. Users can share their images and experiences with each  <br />
+                    other about the places the visited and post amazing arts. </p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/michaelbryanstark/Project-Wayfarer")} >https://github.com/michaelbryanstark/Project-Wayfarer </a>
             </>
         )
@@ -286,10 +292,9 @@ const Portfolio = () => {
                                 url={[
                                     'Videos/Tracking-Vehicle.MP4',
                                 ]}
-                                playing
                                 width='100%'
                                 height='100%'
-                                controls='false'
+                                controls={true}
                                 title="Bluetooth"
                             />
                     </div>
@@ -301,10 +306,9 @@ const Portfolio = () => {
                                 url={[
                                     'Videos/Bluetooth-Sensor.MP4',
                                 ]}
-                                playing
                                 width='100%'
                                 height='100%'
-                                controls='false'
+                                controls={true}
                             />
                     </div>
                 </div>
