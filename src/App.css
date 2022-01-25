@@ -600,6 +600,39 @@ nav ul li {
 
 }
 
+.soft{
+  margin: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center ;
+}
+
+.comp{
+  margin: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.video h4{
+  text-align: center;
+}
 /*------------ OVERFLOW BOX ------------------*/
 .overflow {
   position: absolute;
@@ -657,6 +690,10 @@ nav ul li {
   .portfolio-image-popupbox {
     width: 100%;
   }
+
+  .video{
+    width: 100%;
+  }
 }
 
 @media(max-height: 570px) {
@@ -665,6 +702,9 @@ nav ul li {
 }
   .portfolio-image-popupbox {
     width: 50%;
+  }
+  .video{
+    width: 100%;
   }
 }
 
@@ -675,6 +715,9 @@ nav ul li {
     .portfolio-image-popupbox {
       width: 30%;
     }
+    .video{
+    width: 500%;
+  }
   }
 
 

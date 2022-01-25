@@ -18,6 +18,9 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox"
 import "react-popupbox/dist/react-popupbox.css";
 
+//REACT VIDEO
+import ReactPlayer from "react-player";
+
 const Portfolio = () => {
 
    // MY PORTFOLIO
@@ -217,7 +220,9 @@ const Portfolio = () => {
                     I approach each project individually and always focus on the results.<br />
                     Click on individual icon to view the github link and description.
                 </p>
-                    <div className="image-box-wrapper row row-cols-1 row-cols-sm-2 row-cols-md-4  justify-content-center">
+
+                <h3 className="soft"> Software Engineering Projects</h3>
+                <div className="image-box-wrapper row row-cols-1 row-cols-sm-2 row-cols-md-4  justify-content-center">
 
                     {/* - */}
                     <div className="portfolio-image-box" onClick={openPopupboxMyPortfolio} >
@@ -268,11 +273,43 @@ const Portfolio = () => {
                         <FontAwesomeIcon className= "portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
+                    
                 </div>
-            </div>
-
+                <h3 className="comp"> Computer Engineering Projects</h3>
+                
+                <div className="video" >
+                    <h4> Wireless Line Tracking Vehicle </h4>
+                    <div className='player-wrapper'>
+                        
+                            <ReactPlayer
+                                className='react-player'
+                                url={[
+                                    'Videos/Tracking-Vehicle.MP4',
+                                ]}
+                                playing
+                                width='100%'
+                                height='100%'
+                                controls='false'
+                                title="Bluetooth"
+                            />
+                    </div>
+                    <br />
+                    <h4> Bluetooth Temperature and Humidimperature and Humdity Sensor </h4>
+                    <div className='player-wrapper'>
+                            <ReactPlayer
+                                className='react-player'
+                                url={[
+                                    'Videos/Bluetooth-Sensor.MP4',
+                                ]}
+                                playing
+                                width='100%'
+                                height='100%'
+                                controls='false'
+                            />
+                    </div>
+                </div>
             <PopupboxContainer />
-            
+            </div>
         </div>
     )
 }
