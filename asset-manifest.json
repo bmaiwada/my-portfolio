@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.c6ab38ec.css",
+    "main.js": "/my-portfolio/static/js/main.53ec8e84.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/AssetsTracker.jpg": "/my-portfolio/static/media/AssetsTracker.5b47fb5c8364fdee9647.jpg",
+    "static/media/CarDealership.png": "/my-portfolio/static/media/CarDealership.ac822750aa39801895cc.png",
+    "static/media/Wayfarer.png": "/my-portfolio/static/media/Wayfarer.65b71f8a28e7fca2e3f4.png",
+    "static/media/Portfolio.png": "/my-portfolio/static/media/Portfolio.d0fc5d062e1b94e2cdc4.png",
+    "static/media/myself.png": "/my-portfolio/static/media/myself.78b65cc0b685dc017bc6.png",
+    "static/media/testimonials-bg.jpg": "/my-portfolio/static/media/testimonials-bg.75612be74ca26cb2eee2.jpg",
+    "static/media/MERN.png": "/my-portfolio/static/media/MERN.854caf4880530a4d0bc0.png",
+    "static/media/DevBook.png": "/my-portfolio/static/media/DevBook.5339e56987909a7404cd.png",
+    "static/media/HiT-Me.png": "/my-portfolio/static/media/HiT-Me.a4f72ea830ab1483fb0f.png",
+    "static/media/header-background.jpeg": "/my-portfolio/static/media/header-background.5965d735fa076e143ba6.jpeg",
+    "static/media/Computer_Network-removebg-preview.png": "/my-portfolio/static/media/Computer_Network-removebg-preview.515413c1c09b6954981e.png",
+    "static/media/FinchCollector.png": "/my-portfolio/static/media/FinchCollector.3d099f6a6e50ae9d9a88.png",
+    "static/media/STM32-removebg-preview.png": "/my-portfolio/static/media/STM32-removebg-preview.eeffdf0240253577b074.png",
+    "static/media/rtos-logo-removebg-preview.png": "/my-portfolio/static/media/rtos-logo-removebg-preview.87fff16a3496080d31a3.png",
+    "static/media/Arm_Cortex-removebg-preview.png": "/my-portfolio/static/media/Arm_Cortex-removebg-preview.c5e3abaa2a37d345c8bf.png",
+    "static/media/assembly-language-removebg-preview.png": "/my-portfolio/static/media/assembly-language-removebg-preview.1cb84e64ec7de482d667.png",
+    "static/media/portfolio-logo.png": "/my-portfolio/static/media/portfolio-logo.f404034016754963c653.png",
+    "static/media/stm32cubemx.png": "/my-portfolio/static/media/stm32cubemx.69b89bca2c139a7cdeee.png",
+    "static/media/Computer_Hardware-removebg-preview.png": "/my-portfolio/static/media/Computer_Hardware-removebg-preview.8507d9f3cf400ec81975.png",
+    "static/media/avatar-4.png": "/my-portfolio/static/media/avatar-4.f7fb7ed7493d87bbba75.png",
+    "static/media/avatar-3.png": "/my-portfolio/static/media/avatar-3.d6c9b46f1e2a3bbfbefa.png",
+    "static/media/IoT-removebg-preview.png": "/my-portfolio/static/media/IoT-removebg-preview.e6d1f24c50d7695fe8b2.png",
+    "static/media/avatar-1.png": "/my-portfolio/static/media/avatar-1.9277ecea7570a7cb523d.png",
+    "static/media/avatar-2.png": "/my-portfolio/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
+    "static/media/Keil.svg": "/my-portfolio/static/media/Keil.003305550fc4e7cf9f5ee77e17978532.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.c6ab38ec.css.map": "/my-portfolio/static/css/main.c6ab38ec.css.map",
+    "main.53ec8e84.js.map": "/my-portfolio/static/js/main.53ec8e84.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ab38ec.css",
+    "static/js/main.53ec8e84.js"
+  ]
+}
