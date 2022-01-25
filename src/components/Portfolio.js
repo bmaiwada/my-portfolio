@@ -173,7 +173,7 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={ FinchCollector } alt="Finch Collector Project..." />
-                <p>A personal fullstact website design for learning purposes. Where by a user can create account and  <br />
+                <p>A personal fullstack website design for learning purposes. Where by a user can create account and  <br />
                     post his/her favorite finch birds.Practicing how to work with CRUD, REST and API. </p>
                 <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/finchCollector")} >https://github.com/BsoftMaewada/finchCollector </a>
             </>
