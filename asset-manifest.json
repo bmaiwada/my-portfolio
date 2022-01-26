@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c6ab38ec.css",
-    "main.js": "/my-portfolio/static/js/main.53ec8e84.js",
+    "main.css": "/my-portfolio/static/css/main.a1424fa3.css",
+    "main.js": "/my-portfolio/static/js/main.024ec360.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Bluetooth-Sensor.MP4": "/my-portfolio/static/media/Bluetooth-Sensor.e24ded58fc9badcc8b41.MP4",
+    "static/media/Tracking-Vehicle.MP4": "/my-portfolio/static/media/Tracking-Vehicle.f632e56dbd21535213b4.MP4",
     "static/media/AssetsTracker.jpg": "/my-portfolio/static/media/AssetsTracker.5b47fb5c8364fdee9647.jpg",
     "static/media/CarDealership.png": "/my-portfolio/static/media/CarDealership.ac822750aa39801895cc.png",
     "static/media/Wayfarer.png": "/my-portfolio/static/media/Wayfarer.65b71f8a28e7fca2e3f4.png",
@@ -29,12 +31,12 @@
     "static/media/avatar-2.png": "/my-portfolio/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
     "static/media/Keil.svg": "/my-portfolio/static/media/Keil.003305550fc4e7cf9f5ee77e17978532.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.c6ab38ec.css.map": "/my-portfolio/static/css/main.c6ab38ec.css.map",
-    "main.53ec8e84.js.map": "/my-portfolio/static/js/main.53ec8e84.js.map",
+    "main.a1424fa3.css.map": "/my-portfolio/static/css/main.a1424fa3.css.map",
+    "main.024ec360.js.map": "/my-portfolio/static/js/main.024ec360.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ab38ec.css",
-    "static/js/main.53ec8e84.js"
+    "static/css/main.a1424fa3.css",
+    "static/js/main.024ec360.js"
   ]
 }
