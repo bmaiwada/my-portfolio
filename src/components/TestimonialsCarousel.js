@@ -26,7 +26,7 @@ const TestimonialsCarousel = () => {
                 <img src={avatar1} alt="John Doe 1" />
                 <div className="myCarousel">
                     <h3>John Doe 1</h3>
-                    <p>Lorem approach each project individually and always focus on the results</p>
+                    <p>Testimonial coming soon.</p>
                 </div>
                 
             </>
@@ -35,7 +35,7 @@ const TestimonialsCarousel = () => {
                 <img src={avatar2} alt="Jane Doe 2" />
                 <div className="myCarousel">
                     <h3>Jane Doe 2</h3>
-                    <p>Lorem approach each project individually and always focus on the results</p>
+                    <p>Testimonial coming soon.</p>
                 </div>
                 
             </>
@@ -44,7 +44,7 @@ const TestimonialsCarousel = () => {
                 <img src={avatar3} alt="John Doe 3" />
                 <div className="myCarousel">
                     <h3>John Doe 3</h3>
-                    <p>Lorem approach each project individually and always focus on the results</p>
+                    <p>Testimonial coming soon.</p>
                 </div>
                 
             </>
@@ -53,7 +53,7 @@ const TestimonialsCarousel = () => {
                 <img src={avatar4} alt="John Doe 4" />
                 <div className="myCarousel">
                     <h3>John Doe 4</h3>
-                    <p>Lorem approach each project individually and always focus on the results</p>
+                    <p>Testimonial coming soon.</p>
                 </div>
             </>
         </Carousel>

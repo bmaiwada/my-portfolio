@@ -29,7 +29,8 @@ const Portfolio = () => {
             <>
                 <img className= "portfolio-image-popupbox" src={MyPortfolio} alt="Portfolio Project..." />
                 <p>I approach each project individually and always focus on the results. </p>
-                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio")} > https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio </a>
+                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio")} > https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio </a><br />
+                <b> Site: </b> <a className="hyper-link" onClick={() => window.open("https://bsoftmaewada.github.io/my-portfolio/")} > https://bsoftmaewada.github.io/my-portfolio/ </a>
             </>
         )
         PopupboxManager.open({ 
@@ -124,10 +125,11 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className= "portfolio-image-popupbox" src={ DevBook } alt="DevBook Project..." />
-                <p>DevBook is a new social media platform where Software Developers can share their code,<br />
+                <p>DevBook is a new social media platform where Software Developers can share their code,<br /> https://devbook-flex525.herokuapp.com/
                     ask for help, share ideas, discuss events and make valuable connections. The goal of <br />
                     DevBook is to provide a platform which will aid the advancement of the world. </p>
-                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/vincelaq/dev-social-media")} >https://github.com/vincelaq/dev-social-media </a>
+                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/vincelaq/dev-social-media")} >https://github.com/vincelaq/dev-social-media </a><br />
+                <b> Site: </b> <a className="hyper-link" onClick={() => window.open("https://devbook-flex525.herokuapp.com/")} >https://devbook-flex525.herokuapp.com/</a>
             </>
         )
         PopupboxManager.open({ 
