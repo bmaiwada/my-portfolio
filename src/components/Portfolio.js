@@ -301,13 +301,12 @@ const Portfolio = () => {
                             />
                     </div>
                     <br />
+                    
                     <h4> Bluetooth Temperature and Humidimperature and Humdity Sensor </h4>
                     <div className='player-wrapper'>
                             <ReactPlayer
                                 className='react-player'
-                                url={[
-                                    'Videos/Bluetooth-Sensor.MP4',
-                                ]}
+                                url='Videos/Bluetooth-Sensor.MP4'
                                 width='100%'
                                 height='100%'
                                 controls={true}
