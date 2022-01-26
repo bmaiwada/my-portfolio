@@ -630,7 +630,7 @@ nav ul li {
   padding-top: 20px;
 }
 
-.video h4{
+h4{
   text-align: center;
 }
 /*------------ OVERFLOW BOX ------------------*/
@@ -715,9 +715,7 @@ nav ul li {
     .portfolio-image-popupbox {
       width: 30%;
     }
-    .video{
-    width: 500%;
-  }
+    
   }
 
 

@@ -20,6 +20,9 @@ import "react-popupbox/dist/react-popupbox.css";
 
 //REACT VIDEO
 import ReactPlayer from "react-player";
+import LineTracker from "../Videos/Tracking-Vehicle.MP4";
+import Bluetooth from "../Videos/Bluetooth-Sensor.MP4"
+
 
 const Portfolio = () => {
 
@@ -29,7 +32,7 @@ const Portfolio = () => {
             <>
                 <img className= "portfolio-image-popupbox" src={MyPortfolio} alt="Portfolio Project..." />
                 <p>I approach each project individually and always focus on the results. </p>
-                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio")} > https://github.com/BsoftMaewada/portifolio/tree/main/my_portifolio </a><br />
+                <b> GitHub: </b> <a className="hyper-link" onClick={() => window.open("https://github.com/BsoftMaewada/my-portfolio")} > https://github.com/BsoftMaewada/my-portfolio </a><br />
                 <b> Site: </b> <a className="hyper-link" onClick={() => window.open("https://bsoftmaewada.github.io/my-portfolio/")} > https://bsoftmaewada.github.io/my-portfolio/ </a>
             </>
         )
@@ -285,34 +288,28 @@ const Portfolio = () => {
                 </div>
                 <h3 className="comp"> Computer Engineering Projects</h3>
                 
-                <div className="video" >
+                
                     <h4> Wireless Line Tracking Vehicle </h4>
                     <div className='player-wrapper'>
-                        
-                            <ReactPlayer
-                                className='react-player'
-                                url={[
-                                    'Videos/Tracking-Vehicle.MP4',
-                                ]}
-                                width='100%'
-                                height='100%'
-                                controls={true}
-                                title="Bluetooth"
-                            />
+                        <ReactPlayer
+                            className='react-player'
+                            url={LineTracker}
+                            width='100%'
+                            height='100%'
+                            controls={true}
+                        />
                     </div>
                     <br />
-                    
                     <h4> Bluetooth Temperature and Humidimperature and Humdity Sensor </h4>
                     <div className='player-wrapper'>
                             <ReactPlayer
                                 className='react-player'
-                                url='Videos/Bluetooth-Sensor.MP4'
+                                url={Bluetooth}
                                 width='100%'
                                 height='100%'
                                 controls={true}
                             />
                     </div>
-                </div>
             <PopupboxContainer />
             </div>
         </div>
