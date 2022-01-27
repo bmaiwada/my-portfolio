@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a1424fa3.css",
-    "main.js": "/my-portfolio/static/js/main.024ec360.js",
+    "main.css": "/my-portfolio/static/css/main.9c471c3b.css",
+    "main.js": "/my-portfolio/static/js/main.059c5184.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Bluetooth-Sensor.MP4": "/my-portfolio/static/media/Bluetooth-Sensor.e24ded58fc9badcc8b41.MP4",
     "static/media/Tracking-Vehicle.MP4": "/my-portfolio/static/media/Tracking-Vehicle.f632e56dbd21535213b4.MP4",
@@ -24,19 +24,15 @@
     "static/media/portfolio-logo.png": "/my-portfolio/static/media/portfolio-logo.f404034016754963c653.png",
     "static/media/stm32cubemx.png": "/my-portfolio/static/media/stm32cubemx.69b89bca2c139a7cdeee.png",
     "static/media/Computer_Hardware-removebg-preview.png": "/my-portfolio/static/media/Computer_Hardware-removebg-preview.8507d9f3cf400ec81975.png",
-    "static/media/avatar-4.png": "/my-portfolio/static/media/avatar-4.f7fb7ed7493d87bbba75.png",
-    "static/media/avatar-3.png": "/my-portfolio/static/media/avatar-3.d6c9b46f1e2a3bbfbefa.png",
     "static/media/IoT-removebg-preview.png": "/my-portfolio/static/media/IoT-removebg-preview.e6d1f24c50d7695fe8b2.png",
-    "static/media/avatar-1.png": "/my-portfolio/static/media/avatar-1.9277ecea7570a7cb523d.png",
-    "static/media/avatar-2.png": "/my-portfolio/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
     "static/media/Keil.svg": "/my-portfolio/static/media/Keil.003305550fc4e7cf9f5ee77e17978532.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.a1424fa3.css.map": "/my-portfolio/static/css/main.a1424fa3.css.map",
-    "main.024ec360.js.map": "/my-portfolio/static/js/main.024ec360.js.map",
+    "main.9c471c3b.css.map": "/my-portfolio/static/css/main.9c471c3b.css.map",
+    "main.059c5184.js.map": "/my-portfolio/static/js/main.059c5184.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1424fa3.css",
-    "static/js/main.024ec360.js"
+    "static/css/main.9c471c3b.css",
+    "static/js/main.059c5184.js"
   ]
 }
