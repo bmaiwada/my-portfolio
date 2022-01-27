@@ -10,9 +10,9 @@ const Header = () => {
         
         <div className="header-wrapper" id="home" style={{backgroundImage: "url(/images/Background/header-background.jpeg')"}} >
             <div className="main-info">
-                <h1 class="font-effect-fire-animation"><span id="name">I'm Buhari Nasir Maiwada</span> </h1>
+                <h1 /*class="font-effect-fire-animation"*/><span id="name">Buhari Nasir Maiwada</span> </h1>
                 <hr />
-                <h1> Computer Engineer | Software Engineer </h1>
+                <h1> Computer Engineer || Software Engineer </h1>
                 <Typed
                     className="typed-text"
                     strings={["Computer Engineering (Internet Of Things) "," Fullstack Web Developer", "Frontend Web Developer", "Backend Web Developer"]}
@@ -28,6 +28,11 @@ const Header = () => {
                     <SocialIcon url="https://github.com/BsoftMaewada" network="github" bgColor="grey" style={{margin: 10, padding: 10, height: 75, width: 75}} target="_blank"/>
                 </span>
             </div>
+            {/* <p className="scrolldown">
+                <a className="smoothscroll" href="#about">
+                <i className="icon-down-circle"></i>
+                </a>
+            </p> */}
         </div>
     )
 }
