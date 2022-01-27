@@ -28,7 +28,7 @@ nav{
 }
 
 .logo{
-  margin-top: 20px;
+  margin-top: 1.25rem;
   width: 12rem;
 }
 
@@ -49,9 +49,9 @@ nav ul li {
 }
 
  .navbar-transparent{
-    border-width: 0px;
+    border-width: 0;
     /* -webkit-box-shadow: 0px 0px; */
-    box-shadow: 0px 0px;
+    box-shadow: 0 0;
     background-color: rgba(0,0,0,0.0);
     /* background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
@@ -105,10 +105,10 @@ nav ul li {
   overflow: hidden;
 }
 
-.font-effect-fire-animation {
+/* .font-effect-fire-animation {
   display: flex;
-  font-size: 48px !important;
-  font-family: "Sofia", sans-serif !important;
+  font-size: 70px !important;
+  font-family: 'Luckiest Guy', cursive !important;
   justify-content: center !important;
   align-items: center !important;
   text-align: center !important;
@@ -117,6 +117,15 @@ nav ul li {
   right: 0;
   left: 0;
   bottom: 0;
+} */
+
+#name{
+  font-size: 75px !important;
+  font-family: 'Luckiest Guy', cursive;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  font-weight: bold;
 }
 
 .main-info {
@@ -138,6 +147,20 @@ nav ul li {
   text-transform: uppercase;
 }
 
+@media(max-width: 768px){
+  #name{
+  font-size: 50px !important;
+  font-family: 'Luckiest Guy', cursive;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  font-weight: bold;
+  }
+
+  h1{
+
+  }
+}
 
 /*************************** TYPED TEXT *************************************/
 
@@ -165,7 +188,7 @@ nav ul li {
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
-  margin: 5rem;
+  margin: 4rem;
   background-color:var(--primary-orange);
   font-weight: bold;
 }
@@ -177,9 +200,32 @@ nav ul li {
   transition: 0.2s ease-in-out;
 }
 
+/* scrolldown link */
+/* .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: red;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: red;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+h.scrolldown a:hover { color: #11ABB0; } */
+
 /*************************** PARTICLES JS **********************************************/
 
 .tsparticles-canvas-el{ 
+  /* display: none; */
   position: absolute;
   height: 100vh;
   /* min-height: 580px; */
@@ -203,7 +249,11 @@ nav ul li {
    margin: 0 !important;
    overflow: hidden;
    max-width: 100% !important;
+
   
+}
+#aboutme .tsparticles-canvas-el{
+  display: none;
 }
 
 .photo-wrap {
@@ -230,6 +280,7 @@ nav ul li {
 
 .about-heading {
   color: var(--primary-orange);
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -296,6 +347,7 @@ nav ul li {
 .skills h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -365,6 +417,7 @@ nav ul li {
 .education h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .education .circle {
@@ -491,6 +544,7 @@ nav ul li {
 .experience h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .experience-wrapper::before {
@@ -577,6 +631,7 @@ nav ul li {
 
 .portfolio-wrapper h1 {
   color: var(--primary-orange);
+  font-weight: bold;
 }
 
 .para {
@@ -631,8 +686,27 @@ nav ul li {
 }
 
 h4{
-  text-align: center;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
 }
+
+#description p {
+  font-size: 0.3em;
+}
+
+/* Increase font sizes by 1.5x on bigger screens */
+/* @media (min-width: 48rem) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+} */
 /*------------ OVERFLOW BOX ------------------*/
 .overflow {
   position: absolute;
@@ -793,6 +867,7 @@ h4{
   color: var(--primary-orange);
   padding: 1.3rem 0;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .contacts p {

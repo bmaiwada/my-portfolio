@@ -87,7 +87,7 @@ const Footer = () => {
               <p className="pt-3 text-center">
                 Copyright &copy;
                 <span>
-                  {new Date().getFullYear()}&nbsp; BSoft | All Rights Reserved
+                  {new Date().getFullYear()}&nbsp; Bsoft Tech | All Rights Reserved
                 </span>
               </p>
             </div>
