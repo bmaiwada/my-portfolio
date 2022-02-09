@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.9c471c3b.css",
-    "main.js": "/my-portfolio/static/js/main.059c5184.js",
+    "main.js": "/my-portfolio/static/js/main.108a5b8c.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Bluetooth-Sensor.MP4": "/my-portfolio/static/media/Bluetooth-Sensor.e24ded58fc9badcc8b41.MP4",
     "static/media/Tracking-Vehicle.MP4": "/my-portfolio/static/media/Tracking-Vehicle.f632e56dbd21535213b4.MP4",
@@ -18,6 +18,7 @@
     "static/media/Computer_Network-removebg-preview.png": "/my-portfolio/static/media/Computer_Network-removebg-preview.515413c1c09b6954981e.png",
     "static/media/FinchCollector.png": "/my-portfolio/static/media/FinchCollector.3d099f6a6e50ae9d9a88.png",
     "static/media/STM32-removebg-preview.png": "/my-portfolio/static/media/STM32-removebg-preview.eeffdf0240253577b074.png",
+    "static/media/MyResume.pdf": "/my-portfolio/static/media/MyResume.a40f45a9bdd9800fcc59.pdf",
     "static/media/rtos-logo-removebg-preview.png": "/my-portfolio/static/media/rtos-logo-removebg-preview.87fff16a3496080d31a3.png",
     "static/media/Arm_Cortex-removebg-preview.png": "/my-portfolio/static/media/Arm_Cortex-removebg-preview.c5e3abaa2a37d345c8bf.png",
     "static/media/assembly-language-removebg-preview.png": "/my-portfolio/static/media/assembly-language-removebg-preview.1cb84e64ec7de482d667.png",
@@ -28,11 +29,11 @@
     "static/media/Keil.svg": "/my-portfolio/static/media/Keil.003305550fc4e7cf9f5ee77e17978532.svg",
     "index.html": "/my-portfolio/index.html",
     "main.9c471c3b.css.map": "/my-portfolio/static/css/main.9c471c3b.css.map",
-    "main.059c5184.js.map": "/my-portfolio/static/js/main.059c5184.js.map",
+    "main.108a5b8c.js.map": "/my-portfolio/static/js/main.108a5b8c.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c471c3b.css",
-    "static/js/main.059c5184.js"
+    "static/js/main.108a5b8c.js"
   ]
 }
