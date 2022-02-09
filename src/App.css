@@ -105,7 +105,7 @@ nav ul li {
   overflow: hidden;
 }
 
-/* .font-effect-fire-animation {
+/* .font-effect-shadow-multiple {
   display: flex;
   font-size: 70px !important;
   font-family: 'Luckiest Guy', cursive !important;
@@ -117,16 +117,16 @@ nav ul li {
   right: 0;
   left: 0;
   bottom: 0;
-} */
+}  */
 
-#name{
+.font-effect-shadow-multiple{
   font-size: 75px !important;
   font-family: 'Luckiest Guy', cursive;
   justify-content: center !important;
   align-items: center !important;
   text-align: center !important;
   font-weight: bold;
-}
+} 
 
 .main-info {
   display: flex;
