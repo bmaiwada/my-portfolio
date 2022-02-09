@@ -3,6 +3,8 @@ import React from "react"
 import Typed from "react-typed"
 //Adding React Social icon (https://jaketrent.github.io/react-social-icons/)
 import { SocialIcon } from "react-social-icons";
+//Resume
+import MyResume from "../Resume/MyResume.pdf"
 
 
 const Header = () => {
@@ -20,7 +22,7 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
-                <a href="#contacts" className="btn-main-offer btn-lg" > contact me</a>
+                <a href= {MyResume } className="btn-main-offer btn-lg" download="MyResume.pdf"> Click to download My Resume</a>
                 <span>
                     
                     <SocialIcon url="https://linkedin.com/in/buharimaiwada" network="linkedin" style={{margin: 10, padding: 10, height: 75, width: 75}} target="_blank" />
