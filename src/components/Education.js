@@ -13,7 +13,7 @@ const Education = () => {
                             <div className="box">
                                 <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
                                 
-                                <h3> Software Engineering</h3>
+                                <h3> Software Developer</h3>
                                 <h5>General Assembly</h5>
                                 <br /> <br />
                                 <p>Graduated:  2021<br />

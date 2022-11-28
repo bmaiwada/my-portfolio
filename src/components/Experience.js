@@ -6,11 +6,59 @@ const Experience = () => {
       <div className="d-flex justify-content-center my-5">
         <h1> Experience </h1>
       </div>
+      {/*  */}
+      <div className="container experience-wrapper">
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>Associate Software Engineer</h3>
+            <h5> Infosys Limited (Remote)</h5>
+            <h6> 2022 - Till Date </h6>
+            <ul>
+              <li>Junior assistant to client project production team.</li>
+              <li>Fullstack, Frontend and Backend web developer.</li>
+              <li>Assist senior software developers with the deploying and development of clients applications.</li>
+              <li>Writing software code in java programming language.</li>
+              <li>Troubleshooting issues with software applications, and performing unit testing of software applications. 
+              </li>
+              <li>Designing APIs using Mulesoft (mule4) and Anypoint platform/studio.</li>
+              <li>Debugging, deploy, testing codes and seeking answers to problems.</li>
+              <li>Using git and gitHub to collaborate with supervisors and coworkers on team projects.</li>
+              <li>Working with other technologies like Azure, Advanced REST Client, POSTMan.</li>
+              <li>Working with Database such as PostgreSQL, MySQL.</li>
+              <li>Keeping track of changes made to code with Git version control system.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/*  */}
       <div className="container experience-wrapper">
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Software Engineer</h3>
+            <h5>Revature Limited (Remote)</h5>
+            <h6> 2022 - 2022 </h6>
+            <ul>
+              <li>Fullstack, Frontend and Backend web developer.</li>
+              <li>Coding using languages Java, JavaScript, TypeScript, HTML, CSS.</li>
+              <li>Microservices using Spring Boot, GCP instances, HttpClient, Docker, REST.</li>
+              <li>DevOps: Jerkins, Postman, Docker, Gradle, GitHub, GitHub Action.</li>
+              <li>Server Technologies: Postgres SQL, JDBC, Hibernate, Tomcat, Spring MVC.</li>
+              <li>Debugging, deploy, testing codes and seeking answers to problems.</li>
+              <li>•	Web Technologies: Angular, Gradle, Spring, Spring Boot, Javalin.</li>
+              <li>Working with Database PostgreSQL.</li>
+              <li> Keeping track of changes made to code with Git version control system.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="container experience-wrapper">
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>Software Developer</h3>
             <h5>General Assembly (Remote)</h5>
             <h6> 2020 - 2021 </h6>
             <ul>
@@ -39,17 +87,14 @@ const Experience = () => {
                 Discord, Slack.
               </li>
               <li>Working with Database PostgreSQL, MongoDB and Heroku.</li>
-              <li>
-                Keeping track of changes made to code with Git version control
-                system.
-              </li>
+              <li> Keeping track of changes made to code with Git version control system.</li>
             </ul>
           </div>
         </div>
       </div>
       {/* - */}
       <div className="container experience-wrapper">
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Pressure Transmitter Builder II</h3>
