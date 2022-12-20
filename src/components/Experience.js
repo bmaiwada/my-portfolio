@@ -63,11 +63,11 @@ const Experience = () => {
             <h6> 2020 - 2021 </h6>
             <ul>
               <li>Fullstack, Frontend and Backend web developer.</li>
-              <li>Coding using languages such as: JavaScript, Python and C.</li>
+              <li>Coding using languages such as: JavaScript and Python.</li>
               <li>Knowledge on fundamentals of HTML, CSS, and JavaScript.</li>
               <li>
                 Experience using frameworks such as NodeJS, Express JS, React JS
-                andDjango.
+                and Django.
               </li>
               <li>
                 Knowledge on JavaScript ES6 features such as classes, arrow
