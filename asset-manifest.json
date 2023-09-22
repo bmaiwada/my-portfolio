@@ -1,7 +1,7 @@
 {
   "main.css": "/my-portfolio/static/css/main.b937c002.chunk.css",
-  "main.js": "/my-portfolio/static/js/main.2a4f5a66.chunk.js",
-  "main.js.map": "/my-portfolio/static/js/main.2a4f5a66.chunk.js.map",
+  "main.js": "/my-portfolio/static/js/main.26d8f122.chunk.js",
+  "main.js.map": "/my-portfolio/static/js/main.26d8f122.chunk.js.map",
   "static/js/1.e365fac8.chunk.js": "/my-portfolio/static/js/1.e365fac8.chunk.js",
   "static/js/1.e365fac8.chunk.js.map": "/my-portfolio/static/js/1.e365fac8.chunk.js.map",
   "static/css/2.daeef438.chunk.css": "/my-portfolio/static/css/2.daeef438.chunk.css",
@@ -32,9 +32,9 @@
   "static/media/Tracking-Vehicle.MP4": "/my-portfolio/static/media/Tracking-Vehicle.59f8fd04.MP4",
   "static/media/Bluetooth-Sensor.MP4": "/my-portfolio/static/media/Bluetooth-Sensor.98c286d7.MP4",
   "static/media/App.css": "/my-portfolio/static/media/testimonials-bg.a6e9475c.jpg",
-  "static/css/main.b937c002.chunk.css.map": "/my-portfolio/static/css/main.b937c002.chunk.css.map",
   "static/css/2.daeef438.chunk.css.map": "/my-portfolio/static/css/2.daeef438.chunk.css.map",
+  "static/css/main.b937c002.chunk.css.map": "/my-portfolio/static/css/main.b937c002.chunk.css.map",
   "index.html": "/my-portfolio/index.html",
-  "precache-manifest.3624e4f6641ca50d446bf7bad3674de6.js": "/my-portfolio/precache-manifest.3624e4f6641ca50d446bf7bad3674de6.js",
+  "precache-manifest.267e7548fb1d50c78a5ea121d559c4a7.js": "/my-portfolio/precache-manifest.267e7548fb1d50c78a5ea121d559c4a7.js",
   "service-worker.js": "/my-portfolio/service-worker.js"
 }
