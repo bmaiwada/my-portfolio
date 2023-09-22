@@ -4,7 +4,7 @@ import Typed from "react-typed"
 //Adding React Social icon (https://jaketrent.github.io/react-social-icons/)
 import { SocialIcon } from "react-social-icons";
 //Resume
-import MyResume from "../Resume/MyResume.pdf"
+import MyResume from "../Resume/Software Engineer .pdf"
 
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
                 <h1> DevOps Engineer || Software Engineer || Computer Engineer </h1>
                 <Typed
                     className="typed-text"
-                    strings={[" DevOps Engineer "," Software Engineer "," Computer Engineering (Internet Of Things) "]}
+                    strings={[" DevOps Engineering "," Software Engineering "," Computer Engineering (Internet Of Things) "]}
                     typeSpeed={70}
                     backSpeed={60}
                     loop
