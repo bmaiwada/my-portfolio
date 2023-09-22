@@ -14,14 +14,10 @@ const AboutMe = () => {
                 <div className=" col-lg-6 col-xm-12">
                     <h1 className="about-heading"> About Me </h1>
                     <section>
-                        <p><strong>
-                            A bachelor degree graduate in computer engineering and a certified
-                            software engineer. Experienced with microcontrollers (STM32,
-                            Arduino, Raspberry Pi), javaScript, C, python programming,
-                            Assembly language, VHDL, Verilog, software/hardware developing,
-                            testing, and debugging code; designing interfaces, operating
-                            systems, embedded systems, hardware, software engineering, and
-                            administering systems networks and IoT (Internet of Things).</strong>
+                            <p><strong>
+                                Dedicated and highly motivated Software Engineer with a strong foundation in computer enginnering, computer science and programming. 
+                                Eager to apply my technical skills, problem- solving abilities, and passion for software development to contribute to a dynamic 
+                                software engineering team and work on exciting projects.</strong>
                             </p>
                     
                             <p> <strong>Quick to learn and master new technologies, successful working in both

@@ -11,9 +11,33 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
+            <h3>Associate DevOps Engineer</h3>
+            <h5> Infosys Limited (Remote)</h5>
+            <h6> Aug 2022 - Sep 2023</h6>
+            <ul>
+                  <li>Continuous Integration/Continuous Deployment (CI/CD): AWS, Jenkins, GitLab CI/CD.</li>
+                  <li></li>Deploying AWS infrastructure and services via code Cloudformation and Terraform.
+                  <li>Configuring/deploying AWS infrastructure/services (VPC, ECS Fargate/EC2, CodePipeline Lambda, EC2, ELB, S3).</li>
+                  <li>Docker Container Management/Kubernetes.</li>
+                  <li>Version Control: Git, GitHub, GitLab.</li>
+                  <li>Monitoring and Logging: Prometheus, Grafana.</li>
+                  <li>Terraform, Ansible, conautomation deployment.</li>
+                  <li>Database experience (PostGres, MySQL,).</li>
+                  <li>VPN, Load Balancing, SSH, Network Monitoring / Troubleshooting tools.</li>
+                  <li>Scripting experience (Linux, Bash, Python).</li>
+                  <li>Web Servers: Apache, Nginx.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="container experience-wrapper">
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
             <h3>Associate Software Engineer</h3>
             <h5> Infosys Limited (Remote)</h5>
-            <h6> 2022 - Till Date </h6>
+            <h6> July 2021 - Aug 2022 </h6>
             <ul>
               <li>Junior assistant to client project production team.</li>
               <li>Fullstack, Frontend and Backend web developer.</li>
@@ -38,7 +62,7 @@ const Experience = () => {
           <div className="timeline-content">
             <h3>Software Engineer</h3>
             <h5>Revature Limited (Remote)</h5>
-            <h6> 2022 - 2022 </h6>
+            <h6> Jan 2021 - Jul 2021 </h6>
             <ul>
               <li>Fullstack, Frontend and Backend web developer.</li>
               <li>Coding using languages Java, JavaScript, TypeScript, HTML, CSS.</li>
@@ -59,8 +83,8 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Software Developer</h3>
-            <h5>General Assembly (Remote)</h5>
-            <h6> 2020 - 2021 </h6>
+            <h5>General Assembly Intern (Remote)</h5>
+            <h6> May 2020 - Nov 2020 </h6>
             <ul>
               <li>Fullstack, Frontend and Backend web developer.</li>
               <li>Coding using languages such as: JavaScript and Python.</li>
@@ -99,7 +123,7 @@ const Experience = () => {
           <div className="timeline-content">
             <h3>Pressure Transmitter Builder II</h3>
             <h5>Emerson Automation Solution Inc</h5>
-            <h6> 2018 - 2020 </h6>
+            <h6> Feb 2018 - May 2020 </h6>
             <ul>
               <li>
                 Performed a wide variety of tasks at workstations, such as: hand

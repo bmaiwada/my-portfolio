@@ -12,12 +12,12 @@ const Header = () => {
         
         <div className="header-wrapper" id="home" style={{backgroundImage: "url(/images/Background/header-background.jpeg')"}} >
             <div className="main-info">
-                <h1 class="font-effect-shadow-multiple" ><span id="name">Buhari Nasir Maiwada</span> </h1>
+                <h1 class="font-effect-shadow-multiple" ><span id="name">Buhari (Nasir) Maiwada</span> </h1>
                 <hr />
-                <h1> Computer Engineer || Software Engineer </h1>
+                <h1> DevOps Engineer || Software Engineer || Computer Engineer </h1>
                 <Typed
                     className="typed-text"
-                    strings={["Computer Engineering (Internet Of Things) "," Fullstack Web Developer", "Frontend Web Developer", "Backend Web Developer"]}
+                    strings={[" DevOps Engineer "," Software Engineer "," Computer Engineering (Internet Of Things) "]}
                     typeSpeed={70}
                     backSpeed={60}
                     loop
